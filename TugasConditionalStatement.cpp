@@ -14,4 +14,5 @@ float hasilBMI(float berat, float tinggi){ //FUNGSI 1
 }
 
 string keteranganBMI(float r){ //FUNGSI 2
-    
+    if (r < 18.5)
+           
