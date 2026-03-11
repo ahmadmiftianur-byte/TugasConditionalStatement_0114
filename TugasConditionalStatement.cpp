@@ -9,3 +9,7 @@ void inputData(float &berat, float &tinggi) { //PROSEDUR
         cin >> tinggi;
 }
 
+float hasilBMI(float berat, float tinggi){ //FUNGSI 1
+    return berat/(tinggi * tinggi);
+}
+
