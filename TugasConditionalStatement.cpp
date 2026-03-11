@@ -27,3 +27,16 @@ string keteranganBMI(float r){ //FUNGSI 2
             return "OBESITAS";   
     
 }
+int main(){
+    float berat, tinggi, hasil;
+    cout << "--- SELAMAT DATANG MAHASISWA KELAS C 2025 ---" << endl;
+
+    inputData(berat, tinggi);
+
+    hasil = hasilBMI(berat, tinggi);
+    
+    cout <<"--- Hasil ---" << endl;
+    cout <<"BMI Anda : " <<hasil<<endl;
+    cout << "status : " <<keteranganBMI(hasil)<<endl;
+    
+ }
