@@ -13,3 +13,5 @@ float hasilBMI(float berat, float tinggi){ //FUNGSI 1
     return berat/(tinggi * tinggi);
 }
 
+string keteranganBMI(float r){ //FUNGSI 2
+    
