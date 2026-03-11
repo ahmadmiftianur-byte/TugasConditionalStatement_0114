@@ -15,4 +15,15 @@ float hasilBMI(float berat, float tinggi){ //FUNGSI 1
 
 string keteranganBMI(float r){ //FUNGSI 2
     if (r < 18.5)
-           
+            return "Berat badan KURANG";
+        
+            else if (r < 25)
+            return "Berat badan NORMAL";
+        
+            else if (r < 30)
+            return "Berat badan KELEBIHAN"; 
+        
+            else
+            return "OBESITAS";   
+    
+}
